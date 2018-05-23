@@ -6,4 +6,4 @@
  //ReactDOM.render(que voy a renderizar);
  //ReactDOM.render(donde voya renderizar);
 const app = document.getElementById('app')
-render(<Media />, app);
+render(<Media title="¿Que es edutak?" author="Joel Vilca" image="./images/covers/clase1.jpeg"/>, app);

@@ -17,3 +17,10 @@
    width: 260px;
    height: 160px;
 }
+.Media-title{
+text-align: center;
+}
+.Media-autor{
+  text-align: center;
+  font: bold 12px/1.5 arial, helvetica, sans-serif;
+}
