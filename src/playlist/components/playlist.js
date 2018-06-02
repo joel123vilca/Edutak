@@ -4,7 +4,6 @@ import './playlist.css';
 import Play from '../../icons/components/play';
 import Pause from '../../icons/components/pause';
 import Volumen from '../../icons/components/volumen';
-
 import FullScreen from '../../icons/components/full-screen';
 // function Playlist(props){
 //   return(

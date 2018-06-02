@@ -1,0 +1,14 @@
+{
+"teachers": [
+  {
+    "nombre": "alberto vilca",
+    "avatar": "https://avatars0.githubusercontent.com/u/29287786?s=460&v=4",
+      "id": 1
+  },
+  {
+    "nombre": "joel vilca",
+    "avatar": "./images/covers/clase1.jpeg",
+      "id": 2
+  }
+]
+}
