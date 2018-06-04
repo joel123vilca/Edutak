@@ -6,7 +6,6 @@ function  Profesores(props) {
     console.log(props.data);
     return (
       <div className= "profesores">
-
       {
         profesores.map((item) => {
           return <MediaProfe {...item} key= {item.id}/>
