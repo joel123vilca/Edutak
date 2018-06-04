@@ -6,61 +6,61 @@ function  Precios() {
       <div className="pricing-wrapper clearfix">
 
 		<h1 className="pricing-table-title">Precios </h1>
-    
-		<div className="pricing-table">
-			<h3 className="pricing-title">Basico</h3>
-			<div className="price">$60<sup>/ mes</sup></div>
-
-			<ul className="table-list">
-				<li>10 GB <span>De almacenamiento</span></li>
-				<li>1 Dominio <span>incluido</span></li>
-				<li>25 GB <span>De transferencia mensual</span></li>
-				<li>Base de datos <span className="unlimited">ilimitadas</span></li>
-				<li>Cuentas de correo <span className="unlimited">ilimitadas</span></li>
-				<li>CPanel <span>incluido</span></li>
-			</ul>
-
-			<div className="table-buy">
-				<p>$60<sup>/ mes</sup></p>
-				<a href="#" className="pricing-action">Comprar</a>
-			</div>
-		</div>
 
 		<div className="pricing-table recommended">
-			<h3 className="pricing-title">Premium</h3>
-			<div className="price">$100<sup>/ mes</sup></div>
+			<h3 className="pricing-title">Junio-Julio</h3>
+			<div className="price">S/.80</div>
 
 			<ul className="table-list">
-				<li>35 GB <span>De almacenamiento</span></li>
-				<li>5 Dominios <span>incluidos</span></li>
-				<li>100 GB <span>De transferencia mensual</span></li>
-				<li>Base de datos <span className="unlimited">ilimitadas</span></li>
-				<li>Cuentas de correo <span className="unlimited">ilimitadas</span></li>
-				<li>CPanel <span>incluido</span></li>
+				<li>Estudiantes <span className="unlimited">S/.80.00</span></li>
+				<li>Profesionales <span className="unlimited" >S/.100.00</span></li>
+				<li>Grupos de mas de 5:</li>
+				<li>Estudiantes: <span>S/.75.00</span></li>
+				<li>Profesionales:<span>S/.75.00</span></li>
+        <li>Numero de cuenta</li>
+				<li>Banco de la Nacion: <span> 04-529-428036</span></li>
 			</ul>
 
 			<div className="table-buy">
-				<p>$100<sup>/ mes</sup></p>
-				<a href="#" className="pricing-action">Comprar</a>
+				<a href="#" className="pricing-action">Inscribirse</a>
 			</div>
 		</div>
 
 		<div className="pricing-table">
-			<h3 className="pricing-title">Ultimate</h3>
-			<div className="price">$200<sup>/ mes</sup></div>
+			<h3 className="pricing-title">Agosto - Setiembre</h3>
+			<div className="price">S/.100</div>
 
-			<ul className="table-list">
-				<li>100 GB <span>De almacenamiento</span></li>
-				<li>8 Dominios <span>incluidos</span></li>
-				<li>200 GB <span>De transferencia mensual</span></li>
-				<li>Base de datos <span className="unlimited">ilimitadas</span></li>
-				<li>Cuentas de correo <span className="unlimited">ilimitadas</span></li>
-				<li>CPanel <span>incluido</span></li>
-			</ul>
+      <ul className="table-list">
+        <li>Estudiantes <span className="unlimited">S/.100.00</span></li>
+        <li>Profesionales <span className="unlimited" >S/.110.00</span></li>
+        <li>Grupos de mas de 5:</li>
+        <li>Estudiantes: <span>S/.90.00</span></li>
+        <li>Profesionales:<span>S/.90.00</span></li>
+        <li>Numero de cuenta</li>
+        <li>Banco de la Nacion: <span> 04-529-428036</span></li>
+      </ul>
 
 			<div className="table-buy">
-				<p>$200<sup>/ mes</sup></p>
-				<a href="#" className="pricing-action">Comprar</a>
+				<a href="#" className="pricing-action">Inscribirse</a>
+			</div>
+		</div>
+
+		<div className="pricing-table">
+			<h3 className="pricing-title">Noviembre</h3>
+			<div className="price">S/.120</div>
+
+      <ul className="table-list">
+        <li>Estudiantes <span className="unlimited">S/.120.00</span></li>
+        <li>Profesionales <span className="unlimited" >S/.130.00</span></li>
+        <li>Grupos de mas de 5:</li>
+        <li>Estudiantes: <span>S/.110.00</span></li>
+        <li>Profesionales:<span>S/.110.00</span></li>
+        <li>Numero de cuenta</li>
+        <li>Banco de la Nacion: <span> 04-529-428036</span></li>
+      </ul>
+
+			<div className="table-buy">
+				<a href="#" className="pricing-action">Inscribirse</a>
 			</div>
 		</div>
 	</div>
