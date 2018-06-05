@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-body {
+.pricing-wrapper clearfix {
 	background: white;
 	color: #FFF;
 	font-size: 62.5%;
