@@ -4,7 +4,6 @@ import './playlist.css';
 
 function  Playlist(props) {
     //const playlist = props.data.categories[0].playlist
-    
     return (
        <div className= "Playlist">
        {
