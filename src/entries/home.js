@@ -10,8 +10,8 @@
 
  //ReactDOM.render(que voy a renderizar);
  //ReactDOM.render(donde voya renderizar);
-const app = document.getElementById('app')
-render(<Home data = {data} />, app);
+const homeContainer = document.getElementById('home-container')
+render(<Home data = {data} />, homeContainer);
 //
 // const profe = document.getElementById('profe')
 // render(<Profesores data = {data1} />, profe);
