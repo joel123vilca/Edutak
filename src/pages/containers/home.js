@@ -4,6 +4,8 @@ import Categories from '../../categories/components/categories';
 import Related from '../components/related.js';
 import ModalContainer from '../../widgets/containers/modal';
 import Modal from '../../widgets/components/modal';
+import HandleError from '../../error/containers/handle-error';
+
 class Home extends  Component{
   state = {
     modalVisible: false,
@@ -18,8 +20,15 @@ class Home extends  Component{
       modalVisible: false,
     })
   }
+  // componentDidCatch(error, info){
+  //   this.setState({
+  //     handleError:true,
+  //   })
+  // }
   render(){
+
     return(
+      <HandleError>
       <HomeLayout>
       <Related/>
       <Categories categories={this.props.data.categories}
@@ -34,6 +43,7 @@ class Home extends  Component{
         </ModalContainer>
       }
       </HomeLayout>
+      </HandleError>
     )
   }
 }
