@@ -1,6 +1,7 @@
 import React,{PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import './media.css';
+
 class Media extends PureComponent{
   //constructor(props){
     //super(props)
@@ -11,12 +12,12 @@ class Media extends PureComponent{
   state = {
     author: 'joel vilca alania'
   }
-  handleClick=  (event) => {
-    //console.log(this.props.title)
-    this.setState({
-      author: 'alberto vilca',
-  })
-}
+  // handleClick=  (event) => {
+  //   //console.log(this.props.title)
+  //   this.setState({
+  //     author: 'alberto vilca',
+  // })
+//}
   render(){
     const styles ={
       container: {
@@ -27,7 +28,7 @@ class Media extends PureComponent{
       }
     }
     return (
-      <div className="Media" onClick={this.handleClick}>
+      <div className="Media" onClick={this.props.handleClick}>
         <div className="Media-cover">
           <img
           src={this.props.cover}
