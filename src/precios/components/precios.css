@@ -5,8 +5,13 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
-.pricing-wrapper clearfix {
+.Precios {
+	background: white;
+	color: #FFF;
+	font-size: 62.5%;
+	font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+}
+.precio-wrapper clearfix {
 	background: white;
 	color: #FFF;
 	font-size: 62.5%;
@@ -22,7 +27,7 @@ a {
 	text-decoration: none;
 }
 
-.pricing-table-title {
+.precio-table-title {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 3em;
@@ -33,7 +38,7 @@ a {
 	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
 }
 
-.pricing-table-title a {
+.precio-table-title a {
 	font-size: 0.8em;
 }
 
@@ -47,12 +52,12 @@ a {
 /** ========================
  * Contenedor
  ============================*/
-.pricing-wrapper {
+.precio-wrapper {
 	width: 960px;
 	margin: 40px auto 0;
 }
 
-.pricing-table {
+.precio-table {
 	margin: 0 10px;
 	text-align: center;
 	width: 300px;
@@ -64,31 +69,31 @@ a {
 	transition: all 0.25s ease;
 }
 
-.pricing-table:hover {
+.precio-table:hover {
 	-webkit-transform: scale(1.06);
 	-ms-transform: scale(1.06);
 	-o-transform: scale(1.06);
 	transform: scale(1.06);
 }
 
-.pricing-title {
+.precio-title {
 	color: #FFF;
-	background: #e95846;
+	background: #E5E7E9;
 	padding: 20px 0;
 	font-size: 2em;
 	text-transform: uppercase;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
 }
 
-.pricing-table.recommended .pricing-title {
-	background: #2db3cb;
+.precio-table.recommended .precio-title {
+	background: #3891CD;
 }
 
-.pricing-table.recommended .pricing-action {
-	background: #2db3cb;
+.precio-table.recommended .precio-action {
+	background: #3891CD;
 }
 
-.pricing-table .price {
+.precio-table .precio {
 	background: #403e3d;
 	font-size: 3.4em;
 	font-weight: 700;
@@ -96,7 +101,7 @@ a {
 	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
 }
 
-.pricing-table .price sup {
+.precio-table .precio sup {
 	font-size: 0.4em;
 	position: relative;
 	left: 5px;
@@ -120,7 +125,7 @@ a {
 
 .table-list li span.unlimited {
 	color: #FFF;
-	background: #2db3cb;
+	background: #3891CD;
 	font-size: 0.9em;
 	padding: 5px 7px;
 	display: inline-block;
@@ -130,8 +135,8 @@ a {
 }
 
 
-.table-list li:nth-child(2n) {
-	background: #F0F0F0;
+.table-list .Oferta {
+	background: #CAD1D5;
 }
 
 .table-buy {
@@ -141,10 +146,10 @@ a {
 	overflow: hidden;
 }
 
-.table-buy .pricing-action {
+.table-buy .precio-action {
 	float: center;
 	color: #FFF;
-	background: #e95846;
+	background: #E5E7E9;
 	padding: 10px 16px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -157,11 +162,11 @@ a {
 	transition: all 0.25s ease;
 }
 
-.table-buy .pricing-action:hover {
+.table-buy .precio-action:hover {
 	background: #cf4f3e;
 }
 
-.recommended .table-buy .pricing-action:hover {
+.recommended .table-buy .precio-action:hover {
 	background: #228799;
 }
 
@@ -184,11 +189,11 @@ a {
  }
 
  @media only screen and (max-width: 767px) {
- 	.pricing-wrapper {
+ 	.precio-wrapper {
  		width: 420px;
  	}
 
- 	.pricing-table {
+ 	.precio-table {
  		display: block;
  		float: none;
  		margin: 0 0 20px 0;
@@ -197,7 +202,7 @@ a {
  }
 
 @media only screen and (max-width: 479px) {
-	.pricing-wrapper {
+	.precio-wrapper {
 		width: 300px;
 	}
 }

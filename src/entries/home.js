@@ -6,12 +6,14 @@
  import data from '../api.json';
  // import Profesores from './src/profesores/components/Profesores';
  // import data1 from './src/profesores.json';
- // import Precios from './src/precios/components/Precios';
+  import Precios from '../precios/components/Precios';
 
  //ReactDOM.render(que voy a renderizar);
  //ReactDOM.render(donde voya renderizar);
 const homeContainer = document.getElementById('home-container')
 render(<Home data = {data} />, homeContainer);
+const precios = document.getElementById('precios')
+render(<Precios/>,precios);
 //
 // const profe = document.getElementById('profe')
 // render(<Profesores data = {data1} />, profe);
