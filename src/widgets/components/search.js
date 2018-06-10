@@ -5,12 +5,18 @@ import './search.css';
 //     <form action=""></form>
 //   )
 // }
- const Search = () => (
+ const Search = (props) => (
    (
-      <form  className="Search">
-      <input className="Search-input"
+      <form  className="Search"
+      onSubmit={props.handleSubmit}>
+      <input
+      ref={props.setRef}
+      className="Search-input"
       placeholder="busca tu curso favorito"
-      type="text"/>
+      type="text"
+      name="search"
+      onChange={props.handleChange}
+      value={props.value}/>
       </form>
    )
  )

@@ -12,9 +12,9 @@
  //ReactDOM.render(donde voya renderizar);
 const homeContainer = document.getElementById('home-container')
 render(<Home data = {data} />, homeContainer);
-const precios = document.getElementById('precios')
-render(<Precios/>,precios);
-//
+// const precios = document.getElementById('precios')
+// render(<Precios/>,precios);
+// 
 // const profe = document.getElementById('profe')
 // render(<Profesores data = {data1} />, profe);
 //
