@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component} from 'react';
 import VideoPlayerLayout from '../components/video-player-layout';
-import Video from '../components/video';
+import Video from '../components/Video';
 import Title from '../components/title';
 import PlayPause from '../components/play-pause'
 
@@ -11,6 +11,11 @@ class VideoPlayer  extends Component{
   togglePlay = (event) => {
     this.setState({
       pause: !this.state.pause
+    })
+  }
+  componentDidMount(){
+    this.setState({
+      pause:(!this.props.autoplay)
     })
   }
   render(){
@@ -24,7 +29,8 @@ class VideoPlayer  extends Component{
           handleClick={this.togglePlay}
         />
         <Video
-        autoplay = {true}
+        autoplay = {this.props.autoplay}
+        pause={this.state.pause}
         src="http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4"
         />
 
