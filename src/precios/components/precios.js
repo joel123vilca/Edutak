@@ -16,7 +16,6 @@ function  Precios() {
 				<li>Profesionales <span className="unlimited" >S/.100.00</span></li>
 				<li className="Oferta">Grupos de mas de 5:</li>
 				<li className="Oferta">Estudiantes: <span>S/.75.00</span></li>
-				<li className="Oferta">Profesionales:<span>S/.75.00</span></li>
         <li>Numero de cuenta</li>
 				<li>Banco de la Nacion: <span> 04-529-428036</span></li>
 			</ul>
@@ -35,7 +34,6 @@ function  Precios() {
         <li>Profesionales <span className="unlimited" >S/.110.00</span></li>
         <li className="Oferta">Grupos de mas de 5:</li>
         <li className="Oferta">Estudiantes: <span>S/.90.00</span></li>
-        <li className="Oferta">Profesionales:<span>S/.90.00</span></li>
         <li>Numero de cuenta</li>
         <li>Banco de la Nacion: <span> 04-529-428036</span></li>
       </ul>
@@ -54,7 +52,6 @@ function  Precios() {
         <li>Profesionales <span className="unlimited" >S/.130.00</span></li>
         <li className="Oferta">Grupos de mas de 5:</li>
         <li className="Oferta">Estudiantes: <span>S/.110.00</span></li>
-        <li className="Oferta">Profesionales:<span>S/.110.00</span></li>
         <li>Numero de cuenta</li>
         <li>Banco de la Nacion: <span> 04-529-428036</span></li>
       </ul>

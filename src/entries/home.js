@@ -4,13 +4,14 @@
  //import Playlist from './src/playlist/components/Playlist';
  import Home from '../pages/containers/home';
  import data from '../api.json';
- // import Profesores from './src/profesores/components/Profesores';
+ // import Precios from '../precios/components/precios';
  // import data1 from './src/profesores.json';
-  
+
  //ReactDOM.render(que voy a renderizar);
  //ReactDOM.render(donde voya renderizar);
 const homeContainer = document.getElementById('home-container')
 render(<Home data = {data} />, homeContainer);
+
 // const precios = document.getElementById('precios')
 // render(<Precios/>,precios);
 //
