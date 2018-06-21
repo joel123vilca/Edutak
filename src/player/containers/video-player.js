@@ -74,7 +74,7 @@ class VideoPlayer  extends Component{
         setRef={this.setRef}
       >
         <Title
-        title="Esto es un video de aritmetica"
+        title={this.props.title}
         />
         <Controls>
           <PlayPause
@@ -107,7 +107,7 @@ class VideoPlayer  extends Component{
         handleTimeUpdate={this.handleTimeUpdate}
         handleSeeking={this.handleSeeking}
         handleSeeked={this.handleSeeked}
-        src="http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4"
+        src={this.props.src}
         />
 
       </VideoPlayerLayout>
